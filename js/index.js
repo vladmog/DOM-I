@@ -65,6 +65,14 @@ item5[4].textContent = "About";
 let item6 = document.querySelectorAll('a');
 item6[5].textContent = "Content";
 
+//change text color to green
+let navA = document.querySelectorAll("nav a");
+navA[0].style.color = "green";
+navA[1].style.color = "green";
+navA[2].style.color = "green";
+navA[3].style.color = "green";
+navA[4].style.color = "green";
+navA[5].style.color = "green";
 
 //CTA==========================================
 //h1
@@ -119,7 +127,6 @@ p[4].textContent = "Vision content elementum magna eros, ac posuere elvit tempus
 
 
 //CONTACT======================================
-
 //contact-h4
 h4[5].textContent = "Contact";
 
@@ -134,6 +141,6 @@ p[7].textContent = "sales@greatidea.io";
 
 
 //FOOTER================================
-
 //copyright
 p[8].textContent = "Copyright Great Idea! 2018";
+
