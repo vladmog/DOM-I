@@ -47,23 +47,18 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 //NAV=========================================
   //item 1
-  let item1 = document.querySelectorAll('a');
-  item1[0].textContent = "Services";
+  let item = document.querySelectorAll('a');
+  item[0].textContent = "Services";
   //item 2
-  let item2 = document.querySelectorAll('a');
-  item2[1].textContent = "Product";
+  item[1].textContent = "Product";
   //item 3
-  let item3 = document.querySelectorAll('a');
-  item3[2].textContent = "Vision";
+  item[2].textContent = "Vision";
   //item 4
-  let item4 = document.querySelectorAll('a');
-  item4[3].textContent = "Features";
+  item[3].textContent = "Features";
   //item 5
-  let item5 = document.querySelectorAll('a');
-  item5[4].textContent = "About";
+  item[4].textContent = "About";
   //item 6
-  let item6 = document.querySelectorAll('a');
-  item6[5].textContent = "Content";
+  item[5].textContent = "Content";
 
   //add two new element to nav
   let nav = document.querySelector('nav');
@@ -78,17 +73,24 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
   nav.appendChild(newNavItem2);
 
   //change text color to green
-  let navA = document.querySelectorAll("nav a");
-  navA[0].style.color = "green";
-  navA[1].style.color = "green";
-  navA[2].style.color = "green";
-  navA[3].style.color = "green";
-  navA[4].style.color = "green";
-  navA[5].style.color = "green";
-  navA[6].style.color = "green";
-  navA[7].style.color = "green";
+
+ item = document.querySelectorAll('a');
+ //item needs to be re-defined to include newly added elements^^
+ 
 
 
+  item.forEach(function(placeHolder){
+    placeHolder.style.color = "green";
+  })
+
+  // item[0].style.color = "green";
+  // item[1].style.color = "green";
+  // item[2].style.color = "green";
+  // item[3].style.color = "green";
+  // item[4].style.color = "green";
+  // item[5].style.color = "green";
+  // item[6].style.color = "green";
+  // item[7].style.color = "green"; 
 
 //CTA==========================================
   //h1
