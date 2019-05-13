@@ -100,7 +100,8 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 //CTA==========================================
   //h1
   let aich1 = document.querySelector('h1');
-  aich1.textContent = "DOM is Awesome";
+  aich1.textContent = "DOM is awesome";
+  aich1.style.textAlign = "center";
 
   //button
   let button = document.querySelector('button');
@@ -155,6 +156,7 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 
   //address
   p[5].textContent =  "123 Way 456 Street Somewhere, USA";
+  p[5].style.width = "200px";
 
   //phone
   p[6].textContent = "1 (888) 888-8888";
