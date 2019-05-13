@@ -65,6 +65,13 @@ item5[4].textContent = "About";
 let item6 = document.querySelectorAll('a');
 item6[5].textContent = "Content";
 
+//add an element to nav
+let nav = document.querySelector('nav');
+let newNavItem = document.createElement('a');
+newNavItem.textContent = "GucciGang";
+newNavItem.href = "#";
+nav.appendChild(newNavItem);
+
 //change text color to green
 let navA = document.querySelectorAll("nav a");
 navA[0].style.color = "green";
@@ -73,6 +80,9 @@ navA[2].style.color = "green";
 navA[3].style.color = "green";
 navA[4].style.color = "green";
 navA[5].style.color = "green";
+navA[6].style.color = "green";
+
+
 
 //CTA==========================================
 //h1
