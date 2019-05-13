@@ -70,7 +70,12 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
   let newNavItem2 = document.createElement('a');
   newNavItem2.textContent = "Gang";
   newNavItem2.href = "#";
-  nav.appendChild(newNavItem2);
+  nav.append(newNavItem2);
+
+  let newNavItem3 = document.createElement('a');
+  newNavItem3.textContent = "Ouu";
+  newNavItem3.href = "#";
+  nav.prepend(newNavItem3);
 
   //change text color to green
 
